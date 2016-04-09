@@ -1,7 +1,7 @@
 {
   "name": "hello-world",
   "version": "1.0.0",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node .",
     "pretest": "jshint .",
