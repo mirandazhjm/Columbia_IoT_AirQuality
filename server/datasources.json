@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysql": {
+    "host": "54.175.93.113",
+    "port": 3306,
+    "database": "db-master1",
+    "password": "iotmon3",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
   }
 }
