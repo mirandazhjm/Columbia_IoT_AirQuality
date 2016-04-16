@@ -2,7 +2,7 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
-var dbconfig = require('opsworks'); //[1] Include database connection data
+var dbconfig = require('./opsworks'); //[1] Include database connection data
 
 module.exports = {
   'db': {
