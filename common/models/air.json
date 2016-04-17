@@ -1,0 +1,43 @@
+{
+  "name": "air",
+  "plural": "air",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "temperature": {
+      "type": "number",
+      "required": true
+    },
+    "humidity": {
+      "type": "number",
+      "required": true
+    },
+    "dewpoint": {
+      "type": "number",
+      "required": true
+    },
+    "co2": {
+      "type": "number",
+      "required": true
+    },
+    "voc": {
+      "type": "number",
+      "required": true
+    },
+    "timestamp": {
+      "type": "number",
+      "required": true
+    },
+    "device": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
