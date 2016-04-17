@@ -2,24 +2,6 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
-var dbconfig = require('./opsworks'); //[1] Include database connection data
-
-module.exports = {
-  'db': {
-    'name': 'db',
-    'connector': 'memory'
-  },
-  'mysql': {
-    'host': dbconfig.db['host'],
-    'port': dbconfig.db['port'],
-    'database': dbconfig.db['database'],
-    'username': dbconfig.db['username'],
-    'password': dbconfig.db['password'],
-    'name': 'mysql',
-    'connector': 'mysql',
-    'user': dbconfig.db['username']
-  }
-};
 
 app.start = function() {
   // start the web server
@@ -36,7 +18,7 @@ app.start = function() {
 
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.
-boot(app, __dirname +'/server', function(err) {
+boot(app, __dirname+"/server", function(err) {
   if (err) throw err;
 
   // start the server if `$ node server.js`

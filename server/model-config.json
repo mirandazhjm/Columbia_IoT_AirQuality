@@ -13,10 +13,7 @@
       "./mixins"
     ]
   },
-  "note": {
-    "dataSource": "db"
-  },
-  "person": {
+  "air": {
     "dataSource": "db",
     "public": true
   }

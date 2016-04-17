@@ -2,14 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "mysql": {
-    "connector": "mysql",
-    "host": "ec2-54-173-10-92.compute-1.amazonaws.com",
-    "port": 3306,
-    "database": "demoDB",
-    "password": "iotmon3",
-    "name": "mysql",
-    "username": "root"
   }
 }
