@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "air_monitor": {
+    "host": "172.31.13.179",
+    "port": 3306,
+    "database": "air_monitor",
+    "password": "iotmon3",
+    "name": "air_monitor",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
