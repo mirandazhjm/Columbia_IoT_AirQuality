@@ -14,7 +14,7 @@
     ]
   },
   "air": {
-    "dataSource": "db",
+    "dataSource": "air_monitor",
     "public": true
   }
 }
