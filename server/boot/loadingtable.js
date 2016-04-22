@@ -7,7 +7,7 @@ module.exports = function (app) {
     var appModels = ['air'];
     app.dataSources.air_monitor.isActual(appModels, function(err, actual) {
         if (!actual) {
-            app.dataSources.air_monitor.autoupdate(appModels, function (err)
+            app.dataSources.air_monitor.automigrate(appModels, function (err)
             { 
                 if (err) throw (err);
                 
