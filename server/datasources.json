@@ -3,15 +3,8 @@
     "name": "db",
     "connector": "memory"
   },
-  "transient": {
-
-    "name": "transient",
-
-    "connector": "transient"
-
-  },
   "air_monitor": {
-    "host": "localhost",
+    "host": "airmon.c8pzkrm3ytof.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "database": "air_monitor",
     "password": "iotmon03",
