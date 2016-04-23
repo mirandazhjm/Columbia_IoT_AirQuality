@@ -3,6 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
+  "transient": {
+
+    "name": "transient",
+
+    "connector": "transient"
+
+  },
   "air_monitor": {
     "host": "localhost",
     "port": 3306,
