@@ -9,7 +9,7 @@
     "database": "air_monitor",
     "password": "iotmon03",
     "name": "air_monitor",
-    "username": "root",
+    "user": "root",
     "connector": "mysql"
   }
 }
