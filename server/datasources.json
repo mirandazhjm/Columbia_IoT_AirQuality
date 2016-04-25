@@ -11,6 +11,7 @@
     "name": "air_monitor",
     "user": "iot",
     "connector": "mysql",
-    "username": "iot"
+    "username": "iot",
+    "_socket": "/var/run/mysqld/mysqld.sock"
   }
 }
