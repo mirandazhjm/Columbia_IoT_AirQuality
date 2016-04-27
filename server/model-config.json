@@ -15,6 +15,8 @@
   },
   "air": {
     "dataSource": "air_monitor",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

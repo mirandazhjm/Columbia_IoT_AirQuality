@@ -32,6 +32,8 @@ module.exports = function(Air) {
 
 	'field4': message.voc,
 
+	'field5': message.dust,
+	
 	'api_key': 'EHR5ZBYEZ9MF3T8X'
 
 	};
